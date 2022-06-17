@@ -1,0 +1,159 @@
+*, 
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+    --color-dark: #121212;
+    --color-gray: #232323;
+    --color-main-text: #ccc;
+    --color-red: #FF4444;
+    --color-dark-red: #cc3636;
+    --color-green: #008000;
+    --color-dark-green: #006600;
+    --color-yellow: #DAA520;
+    --color-dark-yellow: #ae8419;
+    --color-blue: #004D97;
+}
+
+body {
+    background-color: var(--color-blue);
+}
+
+#LogFormTitle {
+    width: 820px;
+    height: auto;
+    padding: 50px 65px;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    padding-bottom: 126px;
+    background-color: var(--color-dark);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+#usr,
+#contra,
+.input-control {
+    height: 54px;
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    border: none;
+    background: none;
+    outline: none;
+    color: var(--color-main-text);
+    border-bottom: 2px solid var(--color-gray); 
+}
+
+#message {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: var(--color-red);
+    border-color: 1px solid var(--color-dark-red);
+}
+
+#message div h4 {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 16px 26px;
+    color: var(--color-main-text);
+}
+
+#LoginBotton,
+#RegistroBotton {
+    padding: 6px 12px;
+    border-radius: 10px;
+    background-color: var(--color-blue);
+    color: var(--color-main-text);
+    border: none;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 16px;
+}
+
+
+#logotipo {
+    height: 60px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#LogFormTitle p {
+    text-align: center;
+    font-size: 16px;
+    padding: 12px;
+    display: block;
+    color: var(--color-main-text);
+}
+
+#RegisterBotton {
+    margin-top: 10px;
+    font-size: 16px;
+    background: none;
+    text-align: center;
+    color: var(--color-main-text);
+    border: none;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#Saludo {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 12px 16px;
+    color: var(--color-main-text);
+    background-color: var(--color-dark-red);
+}
+
+#ToolsUser {
+    width: 820px;
+    height: auto;
+    padding: 50px 65px;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    padding-bottom: 126px;
+    color: var(--color-main-text);
+    background-color: var(--color-dark);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+#ButtonsMenu {
+    width: 100%;
+}
+
+.ToolMenuButton, 
+.ConsultarReserva,
+button {
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background-color: var(--color-blue);
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: var(--color-main-text);
+}
